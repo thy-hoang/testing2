@@ -20,12 +20,12 @@ public class ImageViewer {
     	while(true){
  		
 //    		frame.add(new F5(iteration));							//F5 square
-//    		frame.add(new Carpet(iteration));						//Carpet square
+   		frame.add(new Carpet(iteration));						//Carpet square
 //    		frame.add(new Gasket(iteration));						//Gasket square
     		
 //    		frame.add(new F5(iteration, ellipse, color));			//F5 colored ellipse
 //    		frame.add(new Carpet(iteration, ellipse, color));		//Carpet colored ellipse
-        	frame.add(new Gasket(iteration, ellipse, color));		//Gasket colored ellipse
+        	// frame.add(new Gasket(iteration, ellipse, color));		//Gasket colored ellipse
     		
     		
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
